@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="13" ignored="0" total="32" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="restAssuredTestSuite" duration-ms="25990" started-at="2021-07-04T17:35:34 IST" finished-at="2021-07-04T17:36:00 IST">
+    <groups>
+    </groups>
+    <test name="restassuredtests" duration-ms="25990" started-at="2021-07-04T17:35:34 IST" finished-at="2021-07-04T17:36:00 IST">
+      <class name="com.employeeapi.testCases.TC004_Update_Employee_Record">
+        <test-method status="PASS" signature="updateEmployeeRecord()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="updateEmployeeRecord" is-config="true" duration-ms="3524" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployeeRecord -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="checkContentEncoding" duration-ms="1" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="checkContentType" duration-ms="3" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="checkResponseTime" duration-ms="1" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="checkServerType" duration-ms="1" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="checkStatusCode" duration-ms="1" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC004_Update_Employee_Record@60285225]" name="checkStatusLine" duration-ms="2" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:35:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.employeeapi.testCases.TC004_Update_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC003_Post_Employee_Record">
+        <test-method status="PASS" signature="createEmployee()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="createEmployee" is-config="true" duration-ms="4224" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmployee -->
+        <test-method status="FAIL" signature="checkContentEncoding()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="checkContentEncoding" duration-ms="10" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:52 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<null> but was:<gzip>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<null> but was:<gzip>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at junit.framework.Assert.assertEquals(Assert.java:91)
+at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentEncoding(TC003_Post_Employee_Record.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="FAIL" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="checkContentType" duration-ms="10" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:52 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[text/html; charset=UTF-8]> but was:<[application/json]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[text/html; charset=UTF-8]> but was:<[application/json]>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at junit.framework.Assert.assertEquals(Assert.java:91)
+at com.employeeapi.testCases.TC003_Post_Employee_Record.checkContentType(TC003_Post_Employee_Record.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="FAIL" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="checkResponseBody" duration-ms="17" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:52 IST">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<false> but was:<true>
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:147)
+at junit.framework.Assert.assertEquals(Assert.java:153)
+at com.employeeapi.testCases.TC003_Post_Employee_Record.checkResponseBody(TC003_Post_Employee_Record.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="checkServerType" duration-ms="1" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="FAIL" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="checkStatusCode" duration-ms="2" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:52 IST">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<429> but was:<200>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<429> but was:<200>
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:199)
+at junit.framework.Assert.assertEquals(Assert.java:205)
+at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusCode(TC003_Post_Employee_Record.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="FAIL" signature="checkStatusline()[pri:0, instance:com.employeeapi.testCases.TC003_Post_Employee_Record@29b5cd00]" name="checkStatusline" duration-ms="3" started-at="2021-07-04T17:35:52 IST" finished-at="2021-07-04T17:35:52 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<HTTP/1.1 [429 Too Many Requests]> but was:<HTTP/1.1 [200 OK]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<HTTP/1.1 [429 Too Many Requests]> but was:<HTTP/1.1 [200 OK]>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at junit.framework.Assert.assertEquals(Assert.java:91)
+at com.employeeapi.testCases.TC003_Post_Employee_Record.checkStatusline(TC003_Post_Employee_Record.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusline -->
+      </class> <!-- com.employeeapi.testCases.TC003_Post_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC005_Delete_Employee_Record">
+        <test-method status="PASS" signature="deleteEmployeeData()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="deleteEmployeeData" is-config="true" duration-ms="4228" started-at="2021-07-04T17:35:56 IST" finished-at="2021-07-04T17:36:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployeeData -->
+        <test-method status="FAIL" signature="checkContentEncoding()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="checkContentEncoding" duration-ms="3" started-at="2021-07-04T17:36:00 IST" finished-at="2021-07-04T17:36:00 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<null> but was:<gzip>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<null> but was:<gzip>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at junit.framework.Assert.assertEquals(Assert.java:91)
+at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentEncoding(TC005_Delete_Employee_Record.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="FAIL" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="checkContentType" duration-ms="7" started-at="2021-07-04T17:36:00 IST" finished-at="2021-07-04T17:36:00 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[text/html; charset=UTF-8]> but was:<[application/json]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[text/html; charset=UTF-8]> but was:<[application/json]>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at junit.framework.Assert.assertEquals(Assert.java:91)
+at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkContentType(TC005_Delete_Employee_Record.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="FAIL" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="checkResponseBody" duration-ms="3" started-at="2021-07-04T17:36:00 IST" finished-at="2021-07-04T17:36:00 IST">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<false> but was:<true>
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:147)
+at junit.framework.Assert.assertEquals(Assert.java:153)
+at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkResponseBody(TC005_Delete_Employee_Record.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="checkServerType" duration-ms="4" started-at="2021-07-04T17:36:00 IST" finished-at="2021-07-04T17:36:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="FAIL" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="checkStatusCode" duration-ms="2" started-at="2021-07-04T17:36:00 IST" finished-at="2021-07-04T17:36:00 IST">
+          <exception class="junit.framework.AssertionFailedError">
+            <message>
+              <![CDATA[expected:<429> but was:<200>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.AssertionFailedError: expected:<429> but was:<200>
+at junit.framework.Assert.fail(Assert.java:50)
+at junit.framework.Assert.failNotEquals(Assert.java:287)
+at junit.framework.Assert.assertEquals(Assert.java:67)
+at junit.framework.Assert.assertEquals(Assert.java:199)
+at junit.framework.Assert.assertEquals(Assert.java:205)
+at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusCode(TC005_Delete_Employee_Record.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.AssertionFailedError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="FAIL" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC005_Delete_Employee_Record@7113b13f]" name="checkStatusLine" duration-ms="3" started-at="2021-07-04T17:36:00 IST" finished-at="2021-07-04T17:36:00 IST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<HTTP/1.1 [429 Too Many Requests]> but was:<HTTP/1.1 [200 OK]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<HTTP/1.1 [429 Too Many Requests]> but was:<HTTP/1.1 [200 OK]>
+at junit.framework.Assert.assertEquals(Assert.java:85)
+at junit.framework.Assert.assertEquals(Assert.java:91)
+at com.employeeapi.testCases.TC005_Delete_Employee_Record.checkStatusLine(TC005_Delete_Employee_Record.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+      </class> <!-- com.employeeapi.testCases.TC005_Delete_Employee_Record -->
+      <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
+        <test-method status="PASS" signature="getAllEmplyees()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="getAllEmplyees" is-config="true" duration-ms="7272" started-at="2021-07-04T17:35:34 IST" finished-at="2021-07-04T17:35:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmplyees -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkContentLength" duration-ms="15" started-at="2021-07-04T17:35:41 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkContentType" duration-ms="2" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkResponseBody" duration-ms="33" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="FAIL" signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkResponseTime" duration-ms="4" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:92)
+at org.junit.Assert.assertTrue(Assert.java:43)
+at org.junit.Assert.assertTrue(Assert.java:54)
+at com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime(TC001_Get_All_Employees.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkServerType" duration-ms="28" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkStatusCode" duration-ms="4" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="checkStatusLine" duration-ms="2" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
+      <class name="com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data">
+        <test-method status="PASS" signature="getAllEmplyees()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="getAllEmplyees" is-config="true" duration-ms="5944" started-at="2021-07-04T17:35:42 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmplyees -->
+        <test-method status="FAIL" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkContentLength" duration-ms="7" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: null
+at java.lang.Integer.parseInt(Integer.java:542)
+at java.lang.Integer.parseInt(Integer.java:615)
+at com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data.checkContentLength(TC002_Get_A_Single_Employee_Data.java:104)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkContentType" duration-ms="4" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkResponseBody" duration-ms="6" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="FAIL" signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkResponseTime" duration-ms="3" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+at org.junit.Assert.fail(Assert.java:92)
+at org.junit.Assert.assertTrue(Assert.java:43)
+at org.junit.Assert.assertTrue(Assert.java:54)
+at com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data.checkResponseTime(TC002_Get_A_Single_Employee_Data.java:64)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkServerType" duration-ms="3" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkStatusCode" duration-ms="2" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="checkStatusLine" duration-ms="3" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data@7a9273a8]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-07-04T17:35:48 IST" finished-at="2021-07-04T17:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC002_Get_A_Single_Employee_Data -->
+    </test> <!-- restassuredtests -->
+  </suite> <!-- restAssuredTestSuite -->
+</testng-results>

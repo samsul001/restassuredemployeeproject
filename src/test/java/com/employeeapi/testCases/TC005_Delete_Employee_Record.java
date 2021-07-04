@@ -22,7 +22,7 @@ public class TC005_Delete_Employee_Record extends TestBase{
 	void deleteEmployeeData() throws InterruptedException {
 		RestAssured.baseURI="http://dummy.restapiexample.com/api/v1";
 		httpRequest = RestAssured.given();
-		String empID = "9312";		
+		String empID = "3954";		
 		response = httpRequest.request(Method.DELETE,"/delete/"+empID);	
 		Thread.sleep(3000);
 	}

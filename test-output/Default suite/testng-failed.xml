@@ -7,7 +7,6 @@
         <methods>
           <include name="checkStatusLine"/>
           <include name="checkContentType"/>
-          <include name="checkContentLength"/>
           <include name="tearDown"/>
           <include name="checkStatusCode"/>
           <include name="getAllEmplyees"/>

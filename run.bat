@@ -1,3 +1,3 @@
 D:
-cd D:\workspace_selenium\RestAssuredAPITesting_Employee_Project
+cd D:\workspace_selenium\RestAssured_EmployeeProject
 mvn clean install

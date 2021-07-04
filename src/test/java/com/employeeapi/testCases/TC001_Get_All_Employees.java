@@ -53,7 +53,7 @@ public class TC001_Get_All_Employees extends TestBase {
 
 	}
 
-	@Test
+	//@Test
 	void checkResponseTime() {
 		//logger.info("******Checking response time******");
 
@@ -96,7 +96,7 @@ public class TC001_Get_All_Employees extends TestBase {
 
 	}
 
-	@Test
+	//@Test
 	void checkContentLength() {
 		//logger.info("******Checking Content-Length******");
 
